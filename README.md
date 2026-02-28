@@ -10,6 +10,10 @@ FortiGate v7.2.0 KVM. Some features may not be available.
 
 ---------------------------------------------------------------------
 
+The included ".gns3project" files include the topology as well as the images.
+
+---------------------------------------------------------------------
+
 The internal network subnet corresponds to: 10.0.0.0/24
 The external network subnet corresponds to: 192.168.233.0/24 
 
