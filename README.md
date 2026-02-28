@@ -1,6 +1,18 @@
 # FortiGate-and-Cisco-Topology-Demonstration
 This project aims to demonstrate the skills I've acquired while studying Fortinet's FortiGate courses as well as Cisco's CCNA (and further).
 
+V2:
+Tests OSPF peerings using GRE over IPsec and (separately) Route-based IPsec tunnels (VTI). Forti-1 and Forti-3 have an OSPF peering using VTI tunnel alone. R1 and R2 have peering using GRE over IPsec.
+The tunnel interfaces of Forti-1 and Forti-3 are 10.255.255.1/30
+and 10.255.255.2/30 respectively. The GRE tunnel interfaces of
+R1 and R2 are 10.255.255.5/30 and 10.255.255.6/30 
+respectively.
+
+The GRE tunnel can be removed and OSPF neighbour peerings
+can be formed directly between R1->Forti-1->Forti-3->R2 with no
+issues. The purpose was to test OSPF across the GRE and VTI
+tunnels.
+
 V1:
 The external network makes use of the NAT node adapter in
 VMWare settings configuration.
