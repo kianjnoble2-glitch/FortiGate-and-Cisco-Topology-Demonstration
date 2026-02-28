@@ -9,9 +9,8 @@ R1 and R2 are 10.255.255.5/30 and 10.255.255.6/30
 respectively.
 
 The GRE tunnel can be removed and OSPF neighbour peerings
-can be formed directly between R1->Forti-1->Forti-3->R2 with no
-issues. The purpose was to test OSPF across the GRE and VTI
-tunnels.
+can be formed directly between 
+R1->Forti-1->Forti-3->R2 with no issues. The purpose was to test OSPF across the GRE and VTI tunnels.
 
 V1:
 The external network makes use of the NAT node adapter in
