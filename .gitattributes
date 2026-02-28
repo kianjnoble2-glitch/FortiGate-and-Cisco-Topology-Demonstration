@@ -1,1 +1,2 @@
 *.gns3project filter=lfs diff=lfs merge=lfs -text
+Version[[:space:]]2/** filter=lfs diff=lfs merge=lfs -text
